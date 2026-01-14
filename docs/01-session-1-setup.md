@@ -182,6 +182,8 @@ If asked to "Claim a free Pro trial", you can click **Skip for now**.
 
 When you see the "Review Settings" screen:
 - Click **Connect** next to GitHub to link your GitHub account
+- A GitHub authorization page will open in your browser
+- Click **Authorize Cursor** to allow access to your GitHub repositories (you can authorize for all repositories)
 - Click **Continue**
 
 If you already have a Cursor account, sign in instead.
