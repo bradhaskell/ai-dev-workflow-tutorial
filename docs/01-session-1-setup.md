@@ -583,4 +583,3 @@ In [Session 2](04-session-2-workflow.md), you will:
 4. Build a Streamlit dashboard with Claude Code
 5. Commit, create a PR, and merge
 
-Take a break if needed, then continue to Session 2 when ready.
