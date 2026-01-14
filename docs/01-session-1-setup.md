@@ -80,14 +80,14 @@ Jira is the most widely used project management tool for teams building with tec
 **Steps:**
 
 1. Go to [atlassian.com](https://www.atlassian.com)
-2. Click **Get it free** or **Sign up**
-3. Enter your email address and click **Sign up**
-4. Check your email for a verification link and click it
-5. Create a password
-6. When asked about your role, select an appropriate option (Student or Developer)
-7. When asked what you want to use, select **Jira Software**
-8. Name your site (this becomes your workspace URL, e.g., `yourname.atlassian.net`)
-9. Complete the onboarding steps
+2. Click **Get started**
+3. Sign up using one of these options:
+   - Enter your email address and click **Sign up**, then verify your email and create a password
+   - Or click **Google**, **Microsoft**, **Apple**, or **Slack** to sign up with an existing account
+4. When asked about your role, select an appropriate option (Student or Developer)
+5. When asked what you want to use, select **Jira Software**
+6. Name your site (this becomes your workspace URL, e.g., `yourname.atlassian.net`)
+7. Complete the onboarding steps
 
 **Checkpoint:** You should be able to access your Jira workspace at `yourname.atlassian.net`.
 
@@ -100,12 +100,13 @@ Claude Pro gives you access to Claude Code, the AI assistant you will use throug
 **Steps:**
 
 1. Go to [claude.ai](https://claude.ai)
-2. Click **Sign up** if you don't have an account, or **Log in**
-3. Create an account using your email or Google account
-4. Once logged in, click on your profile or settings
-5. Select **Upgrade to Pro** or **Subscribe to Pro**
-6. Enter your payment information ($20/month)
-7. Complete the subscription
+2. Sign up using one of these options:
+   - Click **Continue with Google** to use your Google account
+   - Or enter your email and click **Continue with email**
+3. Once logged in, click on your profile or settings
+4. Select **Upgrade to Pro** or **Subscribe to Pro**
+5. Enter your payment information ($20/month)
+6. Complete the subscription
 
 **Note:** If you encounter usage limits during the tutorial, you can upgrade to Claude Max ($100/month) for higher limits. Most students find Pro sufficient.
 
