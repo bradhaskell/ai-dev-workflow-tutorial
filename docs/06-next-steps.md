@@ -1,0 +1,324 @@
+# Next Steps: Applying to Your Capstone
+
+You have completed the tutorial and learned the full AI-assisted development workflow. Now it's time to apply these skills to your actual capstone project.
+
+## What You Have Learned
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Skills Acquired                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  AI-Assisted Development:    Professional Workflow:         │
+│  ────────────────────────    ────────────────────           │
+│  • Claude Code for coding    • Git version control          │
+│  • Spec-kit for planning     • Branch-based development     │
+│  • AI as thinking partner    • Pull request reviews         │
+│  • Prompt engineering        • Jira task tracking           │
+│                                                             │
+│  Technical Skills:           Collaboration:                 │
+│  ─────────────────           ──────────────                 │
+│  • Python/Streamlit          • Traceability                 │
+│  • Virtual environments      • Code review process          │
+│  • Terminal/CLI usage        • Documentation                │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Capstone Project Setup Checklist
+
+Use this checklist when setting up your actual capstone project. Each team member should complete these steps.
+
+### Repository Setup
+
+- [ ] **Create a new GitHub repository** for your capstone
+  - One team member creates the repo
+  - Others are added as collaborators (Settings → Collaborators)
+  - Choose a clear, descriptive name (e.g., `capstone-inventory-system`)
+
+- [ ] **Initialize the repository** with:
+  - README.md with project description
+  - .gitignore for your tech stack
+  - LICENSE if applicable
+
+- [ ] **Clone the repository** to your local machine
+  ```bash
+  git clone https://github.com/team/capstone-project.git
+  cd capstone-project
+  ```
+
+### Jira Setup (For Teams)
+
+- [ ] **Create a shared Jira project**
+  - One team member creates the project
+  - Invite others: Project Settings → Access → Add people
+  - Choose a meaningful project key (e.g., `INV` for inventory system)
+
+- [ ] **Set up your board**
+  - Create columns: To Do, In Progress, In Review, Done
+  - Decide on sprint length if using Scrum
+
+- [ ] **Install GitHub for Jira** on the team project
+  - Connect to your capstone repository
+  - Test with a sample commit
+
+### Development Environment
+
+- [ ] **Each team member** should have:
+  - Cursor installed with Claude Code
+  - Git configured with their name/email
+  - Python 3.11+ (if using Python)
+  - uv and spec-kit installed
+  - Access to the shared Jira project
+
+- [ ] **Create initial project structure**
+  - Ask Claude Code to help set up a standard structure
+  - Create requirements.txt or package.json
+  - Set up virtual environment
+
+### Spec-Kit Initialization
+
+- [ ] **Initialize spec-kit** in your capstone repo
+  ```bash
+  specify init . --ai claude
+  ```
+
+- [ ] **Create your constitution**
+  - Define project principles
+  - Agree on coding standards
+  - Document technology choices
+
+---
+
+## Team Workflow
+
+When working as a team, the workflow expands slightly:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Team Workflow                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  1. Pick up a Jira issue (assign to yourself)               │
+│                 ↓                                           │
+│  2. Create a feature branch                                 │
+│     feature/PROJ-123-description                            │
+│                 ↓                                           │
+│  3. Build with Claude Code                                  │
+│                 ↓                                           │
+│  4. Commit with Jira key                                    │
+│     "PROJ-123: add user login"                              │
+│                 ↓                                           │
+│  5. Push and create Pull Request                            │
+│                 ↓                                           │
+│  6. Request review from teammate                            │
+│                 ↓                                           │
+│  7. Address feedback                                        │
+│                 ↓                                           │
+│  8. Merge when approved                                     │
+│                 ↓                                           │
+│  9. Move Jira issue to Done                                 │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Code Review Guidelines
+
+When reviewing a teammate's pull request:
+
+1. **Check functionality** — Does the code do what the Jira issue describes?
+2. **Read the code** — Is it clear and understandable?
+3. **Look for issues** — Bugs, edge cases, security concerns
+4. **Be constructive** — Suggest improvements, don't just criticize
+5. **Approve or request changes** — Be timely; don't block teammates
+
+When your code is reviewed:
+
+1. **Respond to all comments** — Even if just "Done" or "Addressed"
+2. **Don't take it personally** — Reviews improve code quality
+3. **Ask questions** — If feedback is unclear, ask for clarification
+4. **Push updates** — Address feedback in new commits
+
+---
+
+## Best Practices for Capstone Success
+
+### Use Branches Consistently
+
+**Never commit directly to main.** Always:
+
+1. Create a feature branch from main
+2. Do your work on the branch
+3. Create a PR when ready
+4. Merge after review
+
+This prevents conflicts and keeps main stable.
+
+### Keep Jira Updated
+
+- **Move cards** as work progresses (To Do → In Progress → Done)
+- **Add comments** when you encounter blockers
+- **Link related issues** if they depend on each other
+
+This keeps the whole team informed.
+
+### Commit Often, Push Regularly
+
+- **Commit** when you complete a logical unit of work
+- **Push** at least once per work session
+- This creates backup and enables collaboration
+
+### Communicate with Your Team
+
+- **Daily standups** — What did you do? What will you do? Any blockers?
+- **Slack/Teams** — Quick questions and updates
+- **PR comments** — Technical discussions about code
+
+### Use Claude Code Effectively
+
+Claude Code is most helpful when you:
+
+1. **Provide context** — Tell it about your project and constraints
+2. **Ask specific questions** — "How do I..." not "Fix this"
+3. **Iterate** — Build on Claude's suggestions
+4. **Verify** — Don't blindly accept generated code
+5. **Learn** — Ask Claude to explain what it did
+
+---
+
+## Common Capstone Patterns
+
+### Starting a New Feature
+
+```bash
+# 1. Make sure main is up to date
+git checkout main
+git pull origin main
+
+# 2. Create feature branch
+git checkout -b feature/PROJ-123-add-user-dashboard
+
+# 3. Start Claude Code
+claude
+
+# 4. Work with Claude to implement
+# ...
+
+# 5. Commit and push
+git add .
+git commit -m "PROJ-123: add user dashboard with recent activity"
+git push -u origin feature/PROJ-123-add-user-dashboard
+
+# 6. Create PR on GitHub
+```
+
+### Handling Merge Conflicts
+
+When you see "This branch has conflicts":
+
+```bash
+# 1. Get latest main
+git fetch origin
+
+# 2. Merge main into your branch
+git merge origin/main
+
+# 3. If conflicts, ask Claude for help
+# "Help me resolve merge conflicts in src/app.py"
+
+# 4. After resolving
+git add .
+git commit -m "PROJ-123: resolve merge conflicts"
+git push
+```
+
+### Debugging with Claude Code
+
+When something breaks:
+
+```
+I'm seeing this error: [paste error]
+
+The relevant code is in [filename].
+
+What's causing this and how do I fix it?
+```
+
+Claude can read your code and provide specific solutions.
+
+---
+
+## Capstone Resources
+
+### Documentation to Create
+
+- [ ] **README.md** — Project overview, setup instructions, team members
+- [ ] **CONTRIBUTING.md** — How to contribute, coding standards
+- [ ] **Architecture doc** — System design, component overview
+
+### Tools to Consider
+
+| Tool | Purpose |
+|------|---------|
+| **GitHub Projects** | Kanban board integrated with GitHub |
+| **GitHub Actions** | Automated testing on every PR |
+| **Figma** | UI/UX design and prototyping |
+| **Notion** | Team wiki and documentation |
+
+### Getting Help
+
+- **Claude Code** — First line of defense for technical issues
+- **Team members** — Pair programming, code reviews
+- **Instructor** — Office hours for complex problems
+- **Online resources** — Stack Overflow, documentation
+
+---
+
+## Final Reminders
+
+1. **Start with the PRD** — Know what you are building before coding
+
+2. **Use spec-kit** — Plan before you implement
+
+3. **Keep Jira current** — Your project manager (and grade) depends on it
+
+4. **Commit with Jira keys** — Traceability matters
+
+5. **Review each other's code** — Fresh eyes catch bugs
+
+6. **Ask Claude for help** — It's there to make you more productive
+
+7. **Have fun** — You are building something real with industry tools
+
+---
+
+## Quick Reference Card
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Quick Reference                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  Start new work:                                            │
+│  git checkout main && git pull                              │
+│  git checkout -b feature/PROJ-123-description               │
+│                                                             │
+│  Save work:                                                 │
+│  git add . && git commit -m "PROJ-123: description"         │
+│  git push -u origin feature/PROJ-123-description            │
+│                                                             │
+│  Update from main:                                          │
+│  git fetch origin && git merge origin/main                  │
+│                                                             │
+│  Check status:                                              │
+│  git status && git log --oneline -5                         │
+│                                                             │
+│  Get help:                                                  │
+│  claude  (then describe your problem)                       │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Good luck with your capstone! You have the skills and tools to succeed.

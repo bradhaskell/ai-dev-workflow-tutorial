@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Spec-kit
+.specify/cache/
+
+# Node modules (if using npm for Claude Code)
+node_modules/
