@@ -76,8 +76,7 @@ GitHub is where your code lives. It is the industry standard for version control
 7. Select your **Country/Region**
 8. Optionally check the email preferences box
 9. Click **Create account**
-10. Complete the verification puzzle if prompted
-11. Verify your email by clicking the link GitHub sends you
+10. Check your email for a verification code and enter it when prompted
 
 **Checkpoint:** You should be able to log into github.com and see your dashboard.
 
