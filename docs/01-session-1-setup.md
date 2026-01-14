@@ -187,6 +187,8 @@ When you see the "Review Settings" screen:
 - On the "Link GitHub Account" screen, verify your accounts and click **Link Account**
 - Click **Continue**
 
+Once you finish the onboarding in the browser, return to the Cursor desktop app and click **Login**.
+
 If you already have a Cursor account, sign in instead.
 
 **Checkpoint:** You should be able to open Cursor and see the welcome screen or an empty editor.
