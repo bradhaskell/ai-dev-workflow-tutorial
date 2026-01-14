@@ -172,6 +172,11 @@ After the setup wizard, you will see the "Welcome to Cursor" sign up screen. Cre
 
 Follow the instructions on the screen to complete sign up. You may be asked to enter a verification code sent to your email.
 
+When you see the "Customize Your Experience" screen:
+- For "How do you plan to use Cursor?" select **With a Team**
+- For "Which role best describes you?" select **Student**
+- Click **Continue**
+
 If you already have a Cursor account, sign in instead.
 
 **Checkpoint:** You should be able to open Cursor and see the welcome screen or an empty editor.
