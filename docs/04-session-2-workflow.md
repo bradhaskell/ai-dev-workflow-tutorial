@@ -430,18 +430,7 @@ Now use Claude Code to build the dashboard.
 
 1. In Claude Code:
    ```
-   /speckit.implement
-
-   Implement ECOM-1: Build the Streamlit sales dashboard based on our specification.
-
-   Requirements:
-   - Load data from data/sales-data.csv
-   - Display 2 KPI cards: Total Sales and Total Orders
-   - Line chart showing sales trend over time
-   - Bar chart showing sales by category
-   - Bar chart showing sales by region
-
-   Use Plotly for the charts. Make the dashboard clean and professional.
+   /speckit.implement ECOM-1
    ```
 
 2. Claude will:
