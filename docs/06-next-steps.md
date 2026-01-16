@@ -13,14 +13,14 @@ You have completed the tutorial and learned the full AI-assisted development wor
 │  ────────────────────────    ────────────────────           │
 │  • Claude Code for coding    • Git version control          │
 │  • Spec-kit for planning     • Branch-based development     │
-│  • AI as thinking partner    • Pull request reviews         │
-│  • Prompt engineering        • Jira task tracking           │
+│  • Natural language prompts  • Jira task tracking           │
+│  • AI as thinking partner    • Evidence-based completion    │
 │                                                             │
-│  Technical Skills:           Collaboration:                 │
-│  ─────────────────           ──────────────                 │
-│  • Python/Streamlit          • Traceability                 │
-│  • Virtual environments      • Code review process          │
-│  • Terminal/CLI usage        • Documentation                │
+│  Technical Skills:           Deployment:                    │
+│  ─────────────────           ───────────                    │
+│  • Python/Streamlit          • Streamlit Community Cloud    │
+│  • Virtual environments      • Public URL sharing           │
+│  • GitHub repositories       • Traceability                 │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -158,10 +158,11 @@ This prevents conflicts and keeps main stable.
 ### Keep Jira Updated
 
 - **Move cards** as work progresses (To Do → In Progress → Done)
+- **Add evidence** when completing issues (implementation summary, commit hash, branch, GitHub link)
 - **Add comments** when you encounter blockers
 - **Link related issues** if they depend on each other
 
-This keeps the whole team informed.
+This keeps the whole team informed and creates traceability.
 
 ### Commit Often, Push Regularly
 
@@ -311,7 +312,7 @@ Claude can read your code and provide specific solutions.
 
 2. **Use spec-kit** — Plan before you implement
 
-3. **Keep Jira current** — Your project manager (and grade) depends on it
+3. **Keep Jira current** — Move cards, add evidence when done (commit hash, GitHub link)
 
 4. **Commit with Jira keys** — Traceability matters
 
