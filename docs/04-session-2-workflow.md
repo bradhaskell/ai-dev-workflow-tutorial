@@ -439,10 +439,6 @@ Now use Claude Code to build the dashboard. This step will create multiple files
 
 4. Review the generated code. Make sure you understand what it does.
 
-5. If Claude asks where to put the file, a common choice is:
-   - `app.py` in the project root, or
-   - `src/dashboard.py` in a source folder
-
 **Test the dashboard:**
 
 In the terminal (not Claude Code), run:
