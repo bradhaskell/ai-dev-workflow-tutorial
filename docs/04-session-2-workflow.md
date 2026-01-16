@@ -453,7 +453,7 @@ Typically this involves:
 
 **To stop the dashboard:** Press `Ctrl+C` in the terminal.
 
-**Checkpoint:** The dashboard runs and displays your data.
+**Checkpoint:** The dashboard runs and confirms Streamlit is working. You may not see charts yet — most likely just the dashboard title. That's expected at this stage.
 
 ---
 
