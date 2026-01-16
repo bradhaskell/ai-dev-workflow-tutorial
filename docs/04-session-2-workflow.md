@@ -142,7 +142,7 @@ claude --version
 
 ## 2. Spec-Kit Workflow
 
-Spec-kit follows a structured process: Constitution → Specification → Plan → Tasks → Implementation.
+[Spec-kit](https://github.com/github/spec-kit) follows a structured process: Constitution → Specification → Plan → Tasks → Implementation.
 
 ### 2.1 Initialize Spec-Kit
 
