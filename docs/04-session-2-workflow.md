@@ -561,7 +561,9 @@ Now repeat the cycle for each remaining Jira issue:
    - Jira issue shows "Done" with a detailed comment
    - Tasks marked `[x]` in tasks.md
 
-Repeat this cycle until all issues are complete. You can also ask Claude to fix or improve things:
+> **🔁 Repeat steps 1-5 for each remaining Jira issue until all are complete.**
+
+You can also ask Claude to fix or improve things:
 
 ```
 The chart colors don't match our brand. Can you update them?
