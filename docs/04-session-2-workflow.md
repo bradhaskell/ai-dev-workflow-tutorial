@@ -95,7 +95,7 @@ claude --version
 **Steps:**
 
 1. Open Cursor and navigate to your tutorial project
-2. Open the terminal (`` Ctrl+` ``)
+2. Use the existing terminal, or open a new one (**Terminal** → **New Terminal**)
 3. Run the following command:
 
    ```bash
