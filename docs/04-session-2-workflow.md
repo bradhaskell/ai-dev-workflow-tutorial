@@ -142,7 +142,7 @@ claude --version
 
 ## 2. Spec-Kit Workflow
 
-[Spec-kit](https://github.com/github/spec-kit) follows a structured process: Constitution → Specification → Plan → Tasks → Implementation.
+[Spec-kit](https://github.com/github/spec-kit) is GitHub's tool for turning requirements into working code through AI-assisted planning — think of it as creating a detailed project plan before you start building. It follows a structured process: Constitution → Specification → Plan → Tasks → Implementation.
 
 ### 2.1 Initialize Spec-Kit
 
