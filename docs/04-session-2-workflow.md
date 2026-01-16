@@ -144,6 +144,8 @@ claude --version
 
 [Spec-kit](https://github.com/github/spec-kit) is GitHub's tool for turning requirements into working code through AI-assisted planning — think of it as creating a detailed project plan before you start building. It follows a structured process: Constitution → Specification → Plan → Tasks → Implementation.
 
+> **Why not just ask Claude to build the dashboard?** You could prompt Claude Code directly: "Build me a sales dashboard." But without clear specifications, Claude has to make assumptions about what you want — leading to errors, missing features, or unwanted extras. Spec-kit avoids this by creating a detailed plan first, so Claude knows exactly what to build.
+
 ### 2.1 Initialize Spec-Kit
 
 First, initialize spec-kit in your project.
