@@ -114,19 +114,21 @@ claude --version
    ```
    /mcp
    ```
-   You should see `atlassian` listed.
+   You should see `atlassian` listed. It will likely show that it requires authentication.
 
-7. Test the connection by asking:
-   ```
-   What Jira projects do I have access to?
-   ```
+7. Use the **up/down arrow keys** to select `atlassian`, then press **Enter/Return** to authenticate.
 
 8. A browser window will open for authentication:
    - Log in with your Atlassian account
    - Authorize Claude Code to access your Jira workspace
    - Return to the terminal
 
-9. Claude should now list your ECOM project. You'll see something like:
+9. Test the connection by asking:
+   ```
+   What Jira projects do I have access to?
+   ```
+
+10. Claude should now list your ECOM project. You'll see something like:
 
    | Key | Name | Type |
    |-----|------|------|
