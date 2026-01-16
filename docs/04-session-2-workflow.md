@@ -17,19 +17,15 @@ This session covers the complete development workflow: from connecting Claude Co
   - [3.1 Create the First Issue](#31-create-the-first-issue)
   - [3.2 Create Remaining Issues](#32-create-remaining-issues)
 - [4. Build the Dashboard with Claude Code](#4-build-the-dashboard-with-claude-code)
-  - [4.1 Set Up Python Environment](#41-set-up-python-environment)
-  - [4.2 Build the Dashboard](#42-build-the-dashboard)
-  - [4.3 Iterate and Improve](#43-iterate-and-improve)
-- [5. Commit Your Changes](#5-commit-your-changes)
-  - [5.1 Ask Claude Code to Commit](#51-ask-claude-code-to-commit)
-- [6. Push to GitHub](#6-push-to-github)
-  - [6.1 Ask Claude Code to Push](#61-ask-claude-code-to-push)
-  - [6.2 Verify on GitHub](#62-verify-on-github)
-- [7. Deploy to Streamlit Community Cloud](#7-deploy-to-streamlit-community-cloud)
-  - [7.1 Sign Up for Streamlit Cloud](#71-sign-up-for-streamlit-cloud)
-  - [7.2 Deploy Your App](#72-deploy-your-app)
-  - [7.3 Share Your Dashboard](#73-share-your-dashboard)
-- [8. Session 2 Verification](#8-session-2-verification)
+  - [4.1 Build the Dashboard](#41-build-the-dashboard)
+  - [4.2 Commit, Push, and Update Jira](#42-commit-push-and-update-jira)
+  - [4.3 Continue with Remaining Issues](#43-continue-with-remaining-issues)
+  - [4.4 Merge Your Work to Main](#44-merge-your-work-to-main)
+- [5. Deploy to Streamlit Community Cloud](#5-deploy-to-streamlit-community-cloud)
+  - [5.1 Start the Deployment Issue](#51-start-the-deployment-issue)
+  - [5.2 Deploy to Streamlit Cloud](#52-deploy-to-streamlit-cloud)
+  - [5.3 Update Jira with Deployment Evidence](#53-update-jira-with-deployment-evidence)
+- [6. Session 2 Verification](#6-session-2-verification)
 - [The Complete Workflow](#the-complete-workflow)
 - [What to Submit](#what-to-submit)
 - [What's Next](#whats-next)
@@ -686,7 +682,7 @@ Update the deployment Jira issue:
 
 ---
 
-## 8. Session 2 Verification
+## 6. Session 2 Verification
 
 Verify everything is complete:
 
@@ -754,7 +750,7 @@ This is the workflow you will use for your capstone project.
 
 ## What to Submit
 
-Submit the following to Brightspace under the **\_\_\_\_\_\_** assignment:
+Submit the following to Brightspace under the **AI Dev Workflow Tutorial** assignment:
 
 1. **GitHub repository link** - Your public repo URL (e.g., `https://github.com/yourusername/ai-dev-workflow-tutorial`)
 
