@@ -634,9 +634,29 @@ Now make your dashboard publicly accessible by deploying it to Streamlit Communi
 
 > **Important:** Make sure you've completed section 4.4 (Merge Your Work to Main) before deploying. Streamlit Cloud deploys from the `main` branch, so your code needs to be there first.
 
-> **Note:** Spec-kit included deployment in your tasks based on the PRD requirements. We'll complete this step manually to learn the Streamlit Cloud interface.
+### 5.1 Start the Deployment Issue
+
+If you have a Jira issue for deployment, let's complete it now.
 
 **Steps:**
+
+1. Ask Claude which deployment issue to work on:
+   ```
+   Which Jira issue is for deployment?
+   ```
+
+2. If a deployment issue exists, implement it:
+   ```
+   /speckit.implement
+
+   Implement the deployment issue and move it to In Progress in Jira.
+   ```
+
+   Claude will provide instructions for deploying to Streamlit Community Cloud.
+
+### 5.2 Deploy to Streamlit Cloud
+
+Follow these steps to deploy (Claude may guide you through this):
 
 1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
 2. Click **New app**
@@ -649,9 +669,17 @@ Once deployed, you'll get a public URL like:
 https://[your-username]-ai-dev-workflow-tutorial-app-xxxxx.streamlit.app
 ```
 
-Copy this URL and share it! Anyone with the link can view your dashboard.
+### 5.3 Update Jira with Deployment Evidence
 
-**Checkpoint:** Your dashboard is live and accessible via the public URL.
+Complete the deployment issue with evidence:
+
+```
+Update the deployment Jira issue:
+- Add a comment with the live Streamlit URL
+- Mark it Done
+```
+
+**Checkpoint:** Your dashboard is live and accessible via the public URL. The deployment Jira issue is marked "Done" with the live URL in the comments.
 
 ---
 
