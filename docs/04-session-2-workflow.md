@@ -401,65 +401,7 @@ Now you will build the dashboard using Claude Code as your AI assistant.
 
 **What is Streamlit?** [Streamlit](https://streamlit.io/) is a Python library that makes it easy to create web-based dashboards and data apps. Instead of writing HTML, CSS, and JavaScript, you write Python code and Streamlit turns it into a web page. It's popular for data visualization because you can go from data to dashboard quickly.
 
-### 4.1 Set Up Python Environment
-
-First, create a virtual environment for your project dependencies.
-
-**Steps:**
-
-1. In Claude Code (run `claude` if not already in a session):
-   ```
-   Help me set up a Python virtual environment for this project.
-   I need to install streamlit, pandas, and plotly for a dashboard.
-   Create a requirements.txt file as well.
-   ```
-
-   **What is requirements.txt?** This file lists all the Python packages your project needs. When someone else downloads your project, they can run `pip install -r requirements.txt` to install all the same packages you used. It's like a recipe that ensures everyone has the same ingredients.
-
-2. Claude will guide you through:
-   - Creating the virtual environment
-   - Activating it
-   - Installing dependencies
-   - Creating requirements.txt
-
-**Manual steps (if you prefer) — run these in the terminal:**
-
-```bash
-# Create virtual environment
-python -m venv venv
-
-# Activate it
-# macOS/Linux:
-source venv/bin/activate
-# Windows:
-venv\Scripts\activate
-
-# Install dependencies
-pip install streamlit pandas plotly
-
-# Create requirements.txt
-pip freeze > requirements.txt
-```
-
-**How do I know the virtual environment is activated?**
-
-When the virtual environment is active, you will see `(venv)` at the beginning of your terminal prompt:
-
-```
-(venv) $ _
-```
-
-If you don't see `(venv)`, run the activation command again (see Manual steps above).
-
-**Checkpoint:**
-- Your terminal prompt shows `(venv)` prefix
-- A `venv` folder exists in your project
-- Running `pip list` shows streamlit, pandas, and plotly installed
-- A `requirements.txt` file exists
-
----
-
-### 4.2 Build the Dashboard
+### 4.1 Build the Dashboard
 
 Now use Claude Code to build the dashboard. This step will create multiple files, so you'll see many edit permission prompts.
 
@@ -528,7 +470,7 @@ streamlit run app.py
 
 ---
 
-### 4.3 Iterate and Improve
+### 4.2 Iterate and Improve
 
 If something doesn't look right, ask Claude to help:
 
@@ -549,7 +491,7 @@ Claude Code can read your existing code and make modifications.
 
 ---
 
-### 4.4 Merge Your Work to Main
+### 4.3 Merge Your Work to Main
 
 Spec-kit created a feature branch for your work. Now that implementation is complete, merge your changes back to the main branch.
 
