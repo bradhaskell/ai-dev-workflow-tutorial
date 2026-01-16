@@ -361,49 +361,29 @@ Claude Code is most helpful when you:
 
 ### Starting a New Feature
 
-With Claude Code, you can use natural language instead of memorizing git commands:
+Follow the spec-kit workflow from [Section 4](#4-spec-kit-workflow-for-capstone):
 
-```
-# In Claude Code:
-
-Pull latest main and create a feature branch for PROJ-123 user dashboard
-
-# Work with Claude to implement...
-
-Commit my changes for PROJ-123 and push to GitHub
-
-# Then update Jira with evidence
-Update PROJ-123 in Jira with a comment summarizing what was implemented,
-the commit hash, branch name, and GitHub link
-```
+1. **Pick a Jira issue** and assign it to yourself
+2. **Create a feature branch**:
+   ```
+   Pull latest main and create a feature branch for PROJ-123
+   ```
+3. **Implement** using `/speckit.implement`
+4. **Commit and push**:
+   ```
+   Commit my changes for PROJ-123 and push to GitHub
+   ```
+5. **Update Jira** with evidence:
+   ```
+   Update PROJ-123 in Jira with a comment summarizing what was implemented,
+   the commit hash, branch name, and GitHub link. Move it to Done.
+   ```
+6. **Merge to main**:
+   ```
+   Merge my branch to main and push
+   ```
 
 > **Tip:** Claude Code handles the git commands for you. Just describe what you want in plain English.
-
-<details>
-<summary>Traditional git commands (for reference)</summary>
-
-```bash
-# 1. Make sure main is up to date
-git checkout main
-git pull origin main
-
-# 2. Create feature branch
-git checkout -b feature/PROJ-123-add-user-dashboard
-
-# 3. Start Claude Code and implement...
-
-# 4. Commit and push
-git add .
-git commit -m "PROJ-123: add user dashboard with recent activity"
-git push -u origin feature/PROJ-123-add-user-dashboard
-
-# 5. Merge to main
-git checkout main
-git merge feature/PROJ-123-add-user-dashboard
-git push
-```
-
-</details>
 
 ### Handling Merge Conflicts
 
