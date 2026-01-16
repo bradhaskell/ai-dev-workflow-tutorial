@@ -626,7 +626,7 @@ Now push your code to GitHub so it's saved in the cloud and ready for deployment
 
 Now make your dashboard publicly accessible by deploying it to Streamlit Community Cloud.
 
-> **Note:** Spec-kit included deployment in your tasks based on the PRD requirements. However, deploying to Streamlit Cloud requires manual steps through their website — Claude Code can't click through web interfaces for you.
+> **Note:** Spec-kit included deployment in your tasks based on the PRD requirements. We'll complete this step manually to learn the Streamlit Cloud interface.
 
 **Steps:**
 
