@@ -320,9 +320,11 @@ When multiple people work on the same codebase, coordination is key:
 
 **Due: January 28** — Submit the following to Brightspace under the **Capstone Project Development Environment** assignment:
 
-1. **GitHub repository link** — Your team's repo URL (e.g., `https://github.com/team/capstone-project`). Make sure `lontok` is added as a collaborator.
+1. **GitHub repository link** — Your team's repo URL (e.g., `https://github.com/team/capstone-project`).
+   Make sure `lontok` is added as a collaborator.
 
-2. **Jira project link** — Your Jira project URL (e.g., `https://yourteam.atlassian.net/jira/software/projects/PROJ/board`). Make sure `gregory.lontok@lmu.edu` is added as a team member.
+2. **Jira project link** — Your Jira project URL (e.g., `https://yourteam.atlassian.net/jira/software/projects/PROJ/board`).
+   Make sure `gregory.lontok@lmu.edu` is added as a team member.
 
 ---
 
