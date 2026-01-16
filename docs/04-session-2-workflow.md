@@ -503,6 +503,8 @@ After completing the first issue, save your work and update Jira to show evidenc
    - Move the issue to Done
    ```
 
+   *Replace `ECOM-1` with your actual issue key.*
+
    > **What is a commit hash?** A commit hash (like `05a9ada`) is a unique ID for each commit. It's like a fingerprint — no two commits have the same hash. This lets you reference a specific snapshot of your code.
    >
    > **What does the GitHub link point to?** The link goes directly to your commit on GitHub, showing exactly what files changed and what was added or removed. Anyone clicking the link can see the evidence of your work.
