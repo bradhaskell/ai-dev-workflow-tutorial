@@ -218,7 +218,7 @@ ehthumbs.db
 Thumbs.db
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/
 
 # Spec-kit
 .specify/cache/
