@@ -1,3 +1,21 @@
-streamlit>=1.28.0
-pandas>=2.0.0
-plotly>=5.18.0
+# LMU Baseball Practice Data Pipeline
+# Python dependencies with pinned versions for reproducibility
+
+# Data processing
+pandas==2.1.4
+openpyxl==3.1.2            # Excel file reading/writing
+
+# Database
+sqlalchemy==2.0.25
+pymysql==1.1.0
+
+# Configuration
+python-dotenv==1.0.0       # Environment variable management
+
+# Testing
+pytest==7.4.4
+pytest-cov==4.1.0          # Test coverage reporting
+
+# Visualization (optional, for local testing)
+streamlit==1.30.0
+plotly==5.18.0
